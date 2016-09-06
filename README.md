@@ -37,3 +37,4 @@ tab.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {
             }  
         });  
 
+如果对您有帮助，欢迎star，fork。。。
