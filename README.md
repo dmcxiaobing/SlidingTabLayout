@@ -22,7 +22,7 @@ QQ986945193 微博：http://weibo.com/mcxiaobing
 private void populateTabStrip();
 
 我们添加一些代码即可：
-
+```
 LinearLayout.LayoutParams layoutParams= new LinearLayout.LayoutParams(0, LayoutParams.WRAP_CONTENT, 1.0f);  
 tabView.setLayoutParams(layoutParams); 
 放在：    tabTitleView.setText(adapter.getPageTitle(i));  
@@ -34,6 +34,7 @@ tabView.setLayoutParams(layoutParams);
             //
               
             mTabStrip.addView(tabView); 
+            ```
 如果要修改 选中效果 的颜色,或者加上选中颜色过度效果，或者 分割线的颜色，可以为 SlidingTabLayout设置属性
 ```
 tab.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {  
