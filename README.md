@@ -1,7 +1,7 @@
 # SlidingTabLayout
 【Android】SlidingTabLayout实现标题栏，教你制作title标题 简单易学。
 
-作者：程序员小冰，CSDN博客：http://blog.csdn.net/qq_21376985， 
+作者： [程序员小冰](http://blog.csdn.net/qq_21376985)
 
 QQ986945193 微博：http://weibo.com/mcxiaobing
 
@@ -35,17 +35,19 @@ tabView.setLayoutParams(layoutParams);
               
             mTabStrip.addView(tabView); 
 如果要修改 选中效果 的颜色,或者加上选中颜色过度效果，或者 分割线的颜色，可以为 SlidingTabLayout设置属性
+```
 tab.setCustomTabColorizer(new SlidingTabLayout.TabColorizer() {  
             @Override  
             public int getIndicatorColor(int position) {  
                 return colors[position];//每个选项卡所对应的颜色  
             }  
-<span style="white-space:pre">    </span>    //分割线颜色  
+   //分割线颜色  
             @Override  
             public int getDividerColor(int position) {  
                 return 0x00FFFFFF;  
             }  
         });  
 
+```
 
 如果对您有帮助，欢迎star，fork。。。
